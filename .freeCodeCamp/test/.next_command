@@ -168,3 +168,5 @@ git status
 clear
 git add -A
 git commit -m 'refactor: refactored for readability and tidy up'
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+ls --color=auto
